@@ -11,14 +11,14 @@ MVC - estrutura:
 -Model(dados)
 <br>
 Framework - django - MTV<br>
-- Montar páginas (Templates);
-- Interagir com diversos bancos de dados (ORM);
-- Validar input dos usuários (Forms);
-- Controlar acesso (Authorization);
-- Gerenciar a aplicação (Admin).
+- Montar páginas (Templates);<br>
+- Interagir com diversos bancos de dados (ORM);<br>
+- Validar input dos usuários (Forms);<br>
+- Controlar acesso (Authorization);<br>
+- Gerenciar a aplicação (Admin).<br>
 <br>
-Instalar o ambiente virtual para garantir que todos os pacotes e instalações vão ser feitas localmente.
-Criar ambiente virtual:
+Instalar o ambiente virtual para garantir que todos os pacotes e instalações vão ser feitas localmente.<br>
+Criar ambiente virtual:<br>
 1 - pip install virtualenv <br>
 2 - python -m venv (nome do embiente virtual que vamos criar) <br>
 exemplo -> python -m venv cadastro_curso_womakers <br>
@@ -29,10 +29,10 @@ Criação do projeto e instalar as ferramentas:
 6 - Criar o projeto -> django-admin starproject (nome do projeto)<br> 
 exemplo-> django-admin startproject projeto_womakers .(onde vai ficar as configurações) o ponto é importante colocar para não ser criado 2 pastas<br>
 7 - Comando python manage.py runserver (rodar o servidor) <br>
-Criar aplicativo
+Criar aplicativo<br>
 8 - python manage.py startapp App_NAME ex de name:base (criar o aplicativo), onde fica as funcionalidades.Dentro da pasta do projeto<br>
 9 - Ir no setting.py e registrar o aplicativo que foi criado (no Instaled_APPS) <br>
 10 - Testar rodando novamente o servidor <br>
 11 - Comecar pelas views <br>
-
+<br><br>
 - Para criar a parte admin - python manage.py createsuperuser <br>
