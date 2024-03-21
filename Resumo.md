@@ -24,7 +24,7 @@ Criar ambiente virtual:<br>
 exemplo -> python -m venv cadastro_curso_womakers <br>
 3 - Ativar o embiente virtual -> entra na pasta que acabou de criar e colocar no terminal nome_ambiente.\Scripts\activate <br>
 4 - Entrar dentro da pasta craiada e ativar novamente o ambiente virtual <br>
-Criação do projeto e instalar as ferramentas:
+Criação do projeto e instalar as ferramentas:<br>
 5 - Instalar o django - pip install django (dentro da pasta de ambiente virtual)<br>
 6 - Criar o projeto -> django-admin starproject (nome do projeto)<br> 
 exemplo-> django-admin startproject projeto_womakers .(onde vai ficar as configurações) o ponto é importante colocar para não ser criado 2 pastas<br>
