@@ -38,7 +38,10 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'base',
-    'bootstrap5'
+    'bootstrap5',
+    'cursos',
+    'rest_framework',
+    'rest_api',
 ]
 
 MIDDLEWARE = [
@@ -82,6 +85,13 @@ DATABASES = {
     }
 }
 
+#Redis
+CACHES = {
+    "default": {
+        "BACKEND": "django.core.cache.backends.redis.RedisCache",
+        "LOCATION": "redis://127.0.0.1:8000",
+    }
+}
 
 # Password validation
 # https://docs.djangoproject.com/en/5.0/ref/settings/#auth-password-validators
