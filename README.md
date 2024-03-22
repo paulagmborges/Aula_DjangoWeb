@@ -1,5 +1,5 @@
-# Aula_DjangoWeb
-Sistema de cadastro e gerenciamento de cursos online. Desenvolvido utilizando Django, SQLite e Bootstrap 5.<br>
+# Sistema de cadastro de usuário e cursos - Aula_de_DjangoWeb.
+Sistema de cadastro e gerenciamento de cursos online. Desenvolvido no curso da WomakersCoder utilizando Django, SQLite e Bootstrap 5.<br>
 
 ⚙️ Configuração do Ambiente:<br>
 Clone este repositório:<br>
