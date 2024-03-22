@@ -1,4 +1,4 @@
-# Sistema de cadastro de usuário e cursos.
+# Sistema de cadastro de usuários e cursos.
 Sistema de cadastro e gerenciamento de cursos online. Desenvolvido no curso da WomakersCoder utilizando Django, SQLite e Bootstrap 5.<br>
 
 ⚙️ Configuração do Ambiente:<br>
