@@ -55,8 +55,11 @@ Serializers ->
 <br>
 <br>
 <br>
+
 # Testes -><br>
+
 Tipos de Testes:<br>
+
 - Funcional -> testes de unidade,teste de interface, teste de regressão, entre outros.
 - Unitário -> Qualquer função, procedimento, método ou módulo pode ser uma unidade testada.
 - Integração -> testa módulos em grupo.
