@@ -57,16 +57,16 @@ Serializers ->
 <br>
 Testes -><br>
 Tipos de Testes:<br>
-Funcional -> testes de unidade,teste de interface, teste de regressão, entre outros.<br>
-Unitário -> Qualquer função, procedimento, método ou módulo pode ser uma unidade testada.<br>
-Integração -> testa módulos em grupo.
-<br>
-Não funcional-> funcionalidades testadas sob cargas.
-<br>
-Usuabilidade -> interação humano - computador.
-desempenho -> determina a velocidade.
-<br>
-Desempenho -> determina a velocidade, estabilidade e escabilidade em grupo.
+- Funcional -> testes de unidade,teste de interface, teste de regressão, entre outros.<br>
+- Unitário -> Qualquer função, procedimento, método ou módulo pode ser uma unidade testada.<br>
+- Integração -> testa módulos em grupo.
+
+- Não funcional-> funcionalidades testadas sob cargas.
+
+- Usuabilidade -> interação humano - computador.
+- Desempenho -> determina a velocidade.
+
+- Desempenho -> determina a velocidade, estabilidade e escabilidade em grupo.
 <br>
 
 Para fazer os testes:
