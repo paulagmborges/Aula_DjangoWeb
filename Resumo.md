@@ -1,23 +1,31 @@
 Framework - Padrões<br>
+
 MVT - estrutura:<br>
+
 - URL (caminho para acessar)
 - View(Lógica do processamento). <br>
 - Model(Camada de dados,estrutura do banco de dados). <br>
 - tamplte(Frint-end.Como os dados são renderizados-html-CSS_JS).<br>
+
 MVC - estrutura:
--User - usuario
--View
--Controller(recebe e responde as solicitaçôes do usuario)
--Model(dados)
+- User - usuário
+- View
+- Controller(recebe e responde as solicitaçôes do usuário)
+- Model(dados)
 <br>
+
 Framework - django - MTV<br>
+
 - Montar páginas (Templates);<br>
 - Interagir com diversos bancos de dados (ORM);<br>
 - Validar input dos usuários (Forms);<br>
 - Controlar acesso (Authorization);<br>
 - Gerenciar a aplicação (Admin).<br>
+
 <br>
+
 Instalar o ambiente virtual para garantir que todos os pacotes e instalações vão ser feitas localmente.<br>
+
 Criar ambiente virtual:<br>
 1 - pip install virtualenv <br>
 2 - python -m venv (nome do embiente virtual que vamos criar) <br>
@@ -34,33 +42,52 @@ Criar aplicativo<br>
 9 - Ir no setting.py e registrar o aplicativo que foi criado (no Instaled_APPS) <br>
 10 - Testar rodando novamente o servidor <br>
 11 - Comecar pelas views <br>
-<br><br>
-- Para criar a parte admin - python manage.py createsuperuser <br>
-<br><br>
-Rest Api ->
+<br>
+<br>
+
+- Para criar a parte admin - 
+
+```
+python manage.py createsuperuser 
+```
+<br>
+
+# Rest Api ->
+
 ```
  pip install djangorestframework
  ```
-Caso esse comando dê algum problema fazer 
+
+Caso esse comando dê algum problema fazer: 
+
 ```
 python -m pip install djangorestfremework
 ```
 
-Fazer as configurações -> settings.py ->INSTALLED_APPS e colocar 'rest_framework'<br>
+Fazer as configurações -> settings.py -> INSTALLED_APPS e colocar 'rest_framework'
 <br>
-Próxima configuração é adicionar um browser paper api que é como se fosse um administrador(é opcional)-> entrar no arquivo urls.py ->adicionar uma nova url ('api-auth'/include(rest-framework.urls))<br>
+<br>
+
+Próxima configuração é adicionar um browser paper api que é como se fosse um administrador(é opcional)-> entrar no arquivo urls.py ->
+adicionar uma nova url ('api-auth'/include(rest-framework.urls))
+<br>
+
 Após isso rodar o comando:
+
 ```
  python .\manange.py startapp rest_api 
- ```
+```
 
-Cria o aplicativo res_api onde vamos criar de uma forma que possibilita que outros aplicativos se conecete a eles.<br>
-Depois de criar, registrar no settings.py, no INSTALLED_APPS 'rest_api".<br>
+Cria o aplicativo res_api onde vamos criar de uma forma que possibilita que outros aplicativos se conecete a eles.
 <br>
+Depois de criar, registrar no settings.py, no INSTALLED_APPS 'rest_api".
+<br>
+
 *Sigla Rest significa transferencia do estado representacional.
+<br>
 Apos isso ir para a views e fazer as imposrtações.
 <br>
-Após o código na views, importar a views na urls.py<br>
+Após o código na views, importar a views na urls.py
 <br>
 <br>
 
@@ -68,11 +95,9 @@ Após o código na views, importar a views na urls.py<br>
 
 <br>
 <br>
-<br>
 
-# Testes -><br>
-
-Tipos de Testes:<br>
+# Testes ->
+Tipos de Testes:
 
 - Funcional -> testes de unidade,teste de interface, teste de regressão, entre outros.
 - Unitário -> Qualquer função, procedimento, método ou módulo pode ser uma unidade testada.
@@ -82,18 +107,25 @@ Tipos de Testes:<br>
 - Desempenho -> determina a velocidade, estabilidade e escabilidade em grupo.
 <br>
 
-Para fazer os testes:<br>
+Para fazer os testes:
+<br>
 Instalar a biblioteca de testes com o comando:
+
 ```
  pip install pytest-django.
  ```
+
 Depois instalar :<br>
+
  ```
  pip install pytest
  ```
+
 Depois fazer as configurações para rodar o pytest -> na raiz do projeto criar arquivo pytest.ini<br>
-Colocar:<br>
-[pytest]<br>
+Colocar:
+<br>
+[pytest]
+<br>
 DJANGO_SETTINGS_MODULE = <nome do projeto>.settings
 python_files = tests.py test_*.py *_test.py
 Depois rodar no terminal o comando pytest
