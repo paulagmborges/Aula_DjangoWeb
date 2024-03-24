@@ -27,6 +27,8 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
+# Configuração para desativar a adição automática de barras
+#APPEND_SLASH = False
 
 # Application definition
 

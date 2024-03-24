@@ -5,10 +5,11 @@ from rest_framework.viewsets import ModelViewSet
 from cursos.models import Curso
 from rest_api.serializers import CursoModelSerializer
 # Create your views here.
+
 @api_view(['GET','POST'])
 def hello_world(request):
     if request.method == 'POST':
-        return Response({'message':f'Hello, {request.data.get("name")}'})
+        return Response({'message': f'Hello, {request.data.get("name")}'})
     return Response ({'hello':'Hello Api'})
 
 class CursoModelViewSet(ModelViewSet):

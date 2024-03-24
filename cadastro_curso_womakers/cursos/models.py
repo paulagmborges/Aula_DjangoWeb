@@ -14,7 +14,7 @@ class Curso(models.Model):
     descricao= models.TextField(max_length=50)
 
     def __str__(self) :
-        return f'{self.titulo}:{self.data_do_curso} - {self.carga_horaria}'
+        return f'{self.titulo}: {self.data_do_curso} - {self.carga_horaria} '
     
     class Meta:
         verbose_name= 'Cadastro de curso'

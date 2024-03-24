@@ -36,3 +36,45 @@ Criar aplicativo<br>
 11 - Comecar pelas views <br>
 <br><br>
 - Para criar a parte admin - python manage.py createsuperuser <br>
+<br><br>
+Rest Api -> pip install djangorestframework<br>
+caso esse comando dê algum problema fazer python -m pip install djangorestfremework
+fazer as configurações -> settings.py ->INSTALLED_APPS e colocar 'rest_framework'<br>
+<br>
+Proxima configuração é adicionar um browser paper api que é como se fosse um administrador(é opcional)-> entrar no arquivo urls.py ->adicionar uma nova url ('api-auth'/include(rest-framework.urls))<br>
+Após isso rodar o comando python .\manange.py startapp rest_api cria o aplicativo res_api onde vamos criar de uma forma que possibilita que outros aplicativos se conecete a eles.<br>
+depois de criar ,registrar no settings.py,no INSTALLED_APPS 'rest_api".<br>
+<br>
+*Sigla Rest significa transferencia do estado representacional.
+Apos isso ir para a views e fazer as imposrtações.
+<br>
+após o código na views, importar a views na urls.py<br>
+<br>
+<br>
+Serializers ->
+<br>
+<br>
+<br>
+Testes -><br>
+Tipos de Testes:<br>
+Funcional -> testes de unidade,teste de interface, teste de regressão, entre outros.<br>
+Unitário -> Qualquer função, procedimento, método ou módulo pode ser uma unidade testada.<br>
+Integração -> testa módulos em grupo.
+<br>
+Não funcional-> funcionalidades testadas sob cargas.
+<br>
+Usuabilidade -> interação humano - computador.
+desempenho -> determina a velocidade.
+<br>
+Desempenho -> determina a velocidade, estabilidade e escabilidade em grupo.
+<br>
+
+Para fazer os testes:
+Instalar a biblioteca de testes com o comando: pip install pytest-django.
+Depois instalar : pip install pytest
+Depois fazer as configurações para rodar o pytest -> na raiz do projeto criar arquivo pytest.ini
+colocar:
+[pytest]
+DJANGO_SETTINGS_MODULE = <nome do projeto>.settings
+python_files = tests.py test_*.py *_test.py
+Depois rodar no terminal o comando pytest
