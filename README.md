@@ -19,5 +19,7 @@ git clone https://github.com/seu-usuario/nome-do-repositorio.git
 ```
 
 🖥️ Funcionalidades
+- Cadastrar usuario.
+- Cadastrar cursos.
 
 
