@@ -13,7 +13,7 @@ git clone https://github.com/seu-usuario/nome-do-repositorio.git
 
 - Bootstrap v5
 
-▶️ Executando o Servidor de Desenvolvimento.<br>
+ 📌 Executando o Servidor de Desenvolvimento.<br>
 ```
   python manage.py runserver
 ```
